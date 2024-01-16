@@ -172,6 +172,60 @@ p{
     padding: 10px;
 } */
 
+
+/* Why Choose Us Section Style */
+
+.why-choose-us-container{
+    margin-bottom: 100px;
+}
+.why-choose-us-titles{
+    text-align: center;
+}
+.why-choose-us-titles h1{
+    font-weight: 800;
+    padding: 20px;
+    font-size: 2.5rem;
+}
+
+.hotel-card{
+    border-radius: 10px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.service-card{
+    border-radius: 10px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.guarantee-card{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.why-choose-us-container .row-1{
+    display: flex;
+    gap: 20px;
+}
+.why-choose-us-container img{
+    height: 50px;
+    width: auto;
+}
+.why-choose-us-container .row-2{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;   
+}
+.why-choose-us-container .hotel-card, .service-card, .guarantee-card{
+    padding: 40px;
+}
+.why-choose-us-container h2{
+    padding: 20px 0;
+    font-weight: 800;
+}
+.why-choose-us-container p{
+    line-height: 30px;
+}
+
 /* Newsletter Section Styles */
 
 .newsletter-container{
