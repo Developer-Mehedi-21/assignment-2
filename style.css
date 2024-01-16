@@ -53,6 +53,9 @@ p{
     display: flex;
     align-items: center;
 }
+.navbar span{
+    color: #ff5400;
+}
 .navbar .logo h2{
     font-size: 2rem;
     font-weight: 800;
@@ -60,6 +63,60 @@ p{
 }
 
 /* Banner Section Styles */
+
+.banner{
+    margin-top: 80px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/banner.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    justify-content: center;
+    padding-top: 200px;
+}
+.banner-titles, .banner-input-fields{
+    text-align: center;
+}
+.banner-titles h1{
+    font-size: 3rem;
+    color: white;
+    font-weight:800;
+    padding-bottom: 20px;
+}
+.banner-titles p{
+    color: white;
+    filter: opacity(80%);
+    width: 50%;
+    margin: auto;
+}
+.nav-selector, .findnow-btn, .nav-input{
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+}
+
+.banner-input-fields{
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.30);
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    width: 60%;
+}
+.banner-input-fields option{
+    color: rgb(163, 160, 160);
+}
+.common{
+    margin-right: 10px;
+    color: rgb(169, 169, 169);
+}
 
 
 /* Popular Tour Section Styles */
