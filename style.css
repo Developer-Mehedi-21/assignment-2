@@ -98,19 +98,20 @@ p{
     border: none;
 }
 
-.banner-input-fields{
+.select{
     display: flex;
-    justify-content: center;
+}
+
+.select{
+    margin-top: 50px;
     background: rgba(255, 255, 255, 0.30);
-    align-items: center;
     width: 50%;
     padding: 20px;
     border-radius: 10px;
-    margin: auto;
-    margin-top: 40px;
-    width: 60%;
+    transform: translate(45%, -50%);
 }
-.banner-input-fields option{
+
+.select option{
     color: rgb(163, 160, 160);
 }
 .common{
@@ -429,6 +430,27 @@ p{
         margin: 20px;
         padding: 0px;
     }
+
+    /* Banner Section Styles */
+    .banner{
+        width: 950px;
+        margin-left: 30px;
+    }
+    
+    .select{
+        flex-direction: column;
+        width: fit-content;
+        position: relative;
+        left: 180px;
+        padding: 10px;
+        top: 80px;
+    }
+    .select .common, .findnow-btn{
+        margin-top: 10px;
+        width: 300px;
+    }
+
+
     /* Popular Tour Section Styles */
     .popular-tour-container{
         flex-direction: column;
@@ -448,7 +470,7 @@ p{
 
     .destination-container{
         width: 920px;
-        margin-left: 25px;
+        margin-left: 30px;
     }
     .destination-container .img-row-1, .img-row-2, .img-row-3{
         flex-direction: column;
@@ -476,6 +498,7 @@ p{
         padding: 50px 0px ;
     }
     /* Testimonial Section Style */
+
     .testimonial_titles{
         width: 1000px;
     }
@@ -484,8 +507,8 @@ p{
         display: flex;
         gap: 30px;
         flex-direction: column;
-        width: 920px;
-        margin-left: 25px;
+        width: 950px;
+        margin-left: 30px;
         margin-top: 0px;
     }
     .testimonial_cards .card3{
@@ -495,8 +518,8 @@ p{
 
     .why-choose-us-titles{
         padding: 0;
-        width: 920px;
-        margin-left: 25px;
+        width: 950px;
+        margin-left: 30px;
     }
     
     .why-choose-us-titles p{
@@ -505,13 +528,13 @@ p{
     }
     .why-choose-us-container .row-1{
         flex-direction: column;
-        width: 920px;
+        width: 950px;
         margin-left: 20px;
     }
     .why-choose-us-container .row-2{
         width: 100%;
-        width: 920px;
-        margin-left: 25px;
+        width: 950px;
+        margin-left: 30px;
     }
     /* Newsletter-section */
 
@@ -521,13 +544,13 @@ p{
         margin: 0;
     }
     .newletter-content{
-        width: 800px;
+        width: 850px;
         text-align: left;
         margin-left: 30px;
         margin-bottom: 50px;
     }
     .newsletter-image{
-        width: 900px;
+        width: 950px;
         margin-left: 30px;
     }
    
@@ -537,7 +560,7 @@ p{
     .footer{
         padding: 0px 100px;
         padding-top: 50px;
-        width: 800px;
+        width: 850px;
     }
     .footer-content{
         padding: 0px;
