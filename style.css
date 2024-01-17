@@ -429,6 +429,20 @@ p{
         margin: 20px;
         padding: 0px;
     }
+    /* Popular Tour Section Styles */
+    .popular-tour-container{
+        flex-direction: column;
+        padding-left: 450px;
+    }
+    .popular-tour-content{
+        width: 920px;
+    }
+    .popular-content-img img{
+        
+        width: 920px;
+        height: 700px;
+        margin-top: 50px;
+    }
 
     /* Destination-container style  */
 
