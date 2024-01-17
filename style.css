@@ -431,10 +431,25 @@ p{
         padding: 0px;
     }
 
+    /* Navbar Section Styles */
+
+    li{
+        display: none;
+    }
+    .bar{
+        display: block;
+        position: relative;
+        left: 420px;
+    }
+    .navbar ul li a {
+        font-size: 2.2rem;
+    }
+
     /* Banner Section Styles */
     .banner{
         width: 950px;
         margin-left: 30px;
+        padding: 80px 0px;
     }
     
     .select{
@@ -469,7 +484,7 @@ p{
     /* Destination-container style  */
 
     .destination-container{
-        width: 920px;
+        width: 950px;
         margin-left: 30px;
     }
     .destination-container .img-row-1, .img-row-2, .img-row-3{
