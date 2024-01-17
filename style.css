@@ -421,6 +421,9 @@ p{
     color: #131318;
 }
 
+
+/* Responsive for Mobile Device */
+
 @media screen and (max-width:600px) {
     main{
         margin: 20px;
@@ -441,8 +444,36 @@ p{
         width: 100%;    
         margin-top: 50px; 
     }
+
+    /* Testimonial Section Style */
+    .testimonial_titles{
+        width: 1000px;
+    }
+
+    .testimonial_cards {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        width: 920px;
+        margin-left: 25px;
+        margin-top: 0px;
+    }
+    .testimonial_cards .card3{
+        margin-top: 0px;
+    }
     /* Why Choose Us Section */
 
+    .why-choose-us-titles{
+        padding: 0;
+        width: 920px;
+        margin-left: 25px;
+    }
+    
+    }
+    .why-choose-us-titles p{
+        width: 100%;
+        padding: 5px 0;
+    }
     .why-choose-us-container .row-1{
         flex-direction: column;
         width: 920px;
